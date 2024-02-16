@@ -59,5 +59,5 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => {
-  return res.send("This is sheychat-next-udemy nodejs server");
+  return res.send("This is sheychat-next nodejs server");
 });
